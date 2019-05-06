@@ -1,0 +1,58 @@
+
+/*******************Couleurs**************/
+.pink{
+    background-color:pink;
+}
+
+.lightcyan{
+    background-color:lightcyan;
+}
+
+.lightYellow{
+    background-color:lightyellow;
+}
+
+/*Contact*/
+
+#contact{
+    font-family: 'Roboto', sans-serif;
+}
+
+#contact .well{
+    margin-top:30px;
+    border-radius:0;
+}
+
+#contact .form-control{
+    border-radius: 0;
+    border:2px solid #1e1e1e;
+}
+
+#contact button{
+    border-radius:0;
+    border:2px solid #1e1e1e;
+}
+
+#contact .row{
+    margin-bottom:50px;
+}
+
+@media (max-width: 768px) { 
+    #contact iframe {
+        margin-bottom: 15px;
+    }
+    
+}
+.para {
+  background-color: lightblue;
+  color: white;
+  text-align: center;
+}
+
+h1 {
+  
+}
+
+
+
+
