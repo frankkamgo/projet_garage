@@ -1,15 +1,10 @@
 <hgroup>
-    <h3 class="aligner txtGras">essais jquery</h3>
- </hgroup>   
-    <div class="container">
-        <p id='parag1'>
-            Qu'est-ce qu'un objet ?
-    Dans une page web, chaque élément, depuis la fenêtre jusqu'à la plus petite balise, est un objet. 
-    Le JavaScript agit sur ces objets. Les objets occupent tous une position claire dans une hiérarchie.  
-        </p>
-        <p id='parag2'>Cette organisation hiérarchisée des éléments de la page obéit au standard W3C DOM, une Application Programming Interface (API)
-dont la définition est la suivante (www.w3.org/DOM) : 
-        </p>
-    </div>
+    <h3 class="aligner txtGras">Essais jquery</h3>
+</hgroup>
 
-
+<div class="container">
+    <p id="parag1"> LegaStream est un site de streaming légal permettant à des utilisateurs de s'abonner et d'ainsi accéder à des centaines de contenus multimédias
+    tel que des films, mangas et séries</p>
+    <p id="parag2">Le premier abonnement cinéphile donne accès à tous les films disponnibles sur la plateforme, idem pour l'abonnement sérievore et pour l'abonnement mangaka.
+        Le quatrième abonnement est l'abonnement prémium qui donne accès à tous ces contenus.</p>
+</div>

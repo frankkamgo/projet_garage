@@ -7,7 +7,7 @@
  *
  * @author Kamgo
  */
-class Client {
+class Rdv {
      private $_attributs = array();
 
     public function __construct(array $data) {

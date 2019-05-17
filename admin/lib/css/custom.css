@@ -42,8 +42,8 @@
     display: inline-block; }
   .dk-footer-box-info .footer-social-link a i {
     display: block;
-    width: 40px;
-    height: 40px;
+    width: 200px;
+    height: 20px;
     border-radius: 50%;
     text-align: center;
     line-height: 40px;
@@ -154,6 +154,10 @@
     color: #fff; }
   .dk-footer-form button:hover {
     cursor: pointer; }
+  .dk-footer-box-info{
+      opacity: 0.4;
+     
+  }
 
 /* ==========================
 

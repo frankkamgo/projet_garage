@@ -18,22 +18,19 @@
           <a class="nav-link" href="./index.php?page=accueil.php" class="alert-link"class="aligner txtGras"><h3 class='para'>Accueil</h3> </a>
       </li>
       <li class="alert alert-secondary" role="alert">
-          <a class="nav-link" href="./index.php?page=Rendez_vous.php"  class="alert-link"><h3 class='para'> rendez-vous</h3></a>
+          <a class="nav-link" href="./index.php?page=Rdv.php"  class="alert-link"><h3 class='para'> rendez-vous</h3></a>
       </li>
       <li class="alert alert-secondary" role="alert">
         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
              <h3 class='para'>Options</h3>
         </a>
         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-          <a class="dropdown-item" href="./index.php?page=List_piece.php"class="aligner txtGras">PIECES A VENDRE</a><!--pour faire appel a une page exixtant dans nos pages-->
-          <a class="dropdown-item" href="./index.php?page=jquery1.php">jquery</a>
-          <div class="dropdown-divider"></div>
-          <a class="dropdown-item" href="#">Something else here</a>
-        </div>
+          <a class="dropdown-item" href="./index.php?page=instruments_piece.php"class="aligner txtGras">PIECES A VENDRE</a><!--pour faire appel a une page exixtant dans nos pages-->
+          <a class="dropdown-item" href="./index.php?page=jquery1.php">pub</a>
+           <a class="dropdown-item" href="./index.php?page=catalogue.php">Catalogue</a>
+         
       </li>
-      <li class="alert alert-primary" role="alert">
-        <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
-      </li>
+ 
       <li class="alert alert-secondary" role="alert">
         <a class="nav-link" href="./index.php?page=login.php ">Connect <span class="sr-only">(current)</span></a>
       </li>

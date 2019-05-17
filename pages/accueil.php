@@ -41,7 +41,7 @@
 
                                             <!-- meta title -->
                                             <div class="news-meta">
-                                                <span class="news-author">by <a class="text-white font-weight-bold" href="../category/author.html">Jennifer</a></span>
+                                                <span class="news-author">by <a class="text-white font-weight-bold" href="../category/author.html">kamgo</a></span>
                                                 <span class="news-date">avril 22, 2019</span>
                                             </div>
                                         </div>
@@ -74,7 +74,7 @@
 
                                             <!-- meta title -->
                                             <div class="news-meta">
-                                                <span class="news-author">by <a class="text-white font-weight-bold" href="../category/author.html">Jennifer</a></span>
+                                                <span class="news-author">by <a class="text-white font-weight-bold" href="../category/author.html">kamgo</a></span>
                                                 <span class="news-date">avril 22, 2019</span>
                                             </div>
                                         </div>
@@ -107,7 +107,7 @@
 
                                             <!-- meta title -->
                                             <div class="news-meta">
-                                                <span class="news-author">by <a class="text-white font-weight-bold" href="../category/author.html">Jennifer</a></span>
+                                                <span class="news-author">by <a class="text-white font-weight-bold" href="../category/author.html">kamgo</a></span>
                                                 <span class="news-date">, 2019</span>
                                             </div>
                                         </div>
@@ -140,7 +140,7 @@
 
                                             <!-- meta title -->
                                             <div class="news-meta">
-                                                <span class="news-author">by <a class="text-white font-weight-bold" href="../category/author.html">Jennifer</a></span>
+                                                <span class="news-author">by <a class="text-white font-weight-bold" href="../category/author.html">kamgo</a></span>
                                                 <span class="news-date"> 22, 2019</span>
                                             </div>
                                         </div>
@@ -177,19 +177,20 @@
                                     <div class="ratio_right-cover-2 image-wrapper">
                                         <a href="https://bootstrap.news/bootstrap-4-template-news-portal-magazine/">
                                             <img class="img-fluid"
-                                                 src="https://bootstrap.news/source/img5.jpg"
-                                                 alt="Image description">
+                                                 src="./admin/images/ban-inscription.jpg"
+                                                 alt="Image inscription">
                                         </a>
                                     </div>
                                     
                                     <!--title-->
                                     <div class="position-absolute p-2 p-lg-3 b-0 w-100 bg-shadow">
                                         <!-- category -->
-                                        <a class="p-1 badge badge-primary rounded-0" href="https://bootstrap.news/bootstrap-4-template-news-portal-magazine/">Lifestyle</a>
+                                        <a class="p-1 badge badge-primary rounded-0" href="./index.php?page=Inscription.php">Registration</a>
+                                       
 
                                         <!--title and description-->
-                                        <a href="https://bootstrap.news/bootstrap-4-template-news-portal-magazine/">
-                                            <h2 class="h5 text-white my-1">Should you see the Fantastic Beasts sequel?</h2>
+                                        <a href="./index.php?page=Inscription.php">
+                                            <h2 class="h5 text-white my-1">Inscription(inscris toi ici)</h2>
                                         </a>
                                     </div>
                                     <!--end title-->
@@ -218,8 +219,8 @@
                                         <a class="p-1 badge badge-primary rounded-0" href="https://bootstrap.news/bootstrap-4-template-news-portal-magazine/">Motocross</a>
 
                                         <!--title and description-->
-                                        <a href="https://bootstrap.news/bootstrap-4-template-news-portal-magazine/">
-                                            <h2 class="h5 text-white my-1">Three myths about Florida elections recount</h2>
+                                        <a href="">
+                                            <h2 class="h5 text-white my-1"></h2>
                                         </a>
                                     </div>
                                     <!--end title-->
@@ -235,7 +236,7 @@
                                 <div class="position-relative">
                                     <!--thumbnail img-->
                                     <div class="ratio_right-cover-2 image-wrapper">
-                                        <a href="https://bootstrap.news/bootstrap-4-template-news-portal-magazine/">
+                                        <a href="">
                                             <img class="img-fluid"
                                                  src="https://bootstrap.news/source/img7.jpg"
                                                  alt="Image description">
@@ -245,7 +246,7 @@
                                     <!--title-->
                                     <div class="position-absolute p-2 p-lg-3 b-0 w-100 bg-shadow">
                                         <!-- category -->
-                                        <a class="p-1 badge badge-primary rounded-0" href="https://bootstrap.news/bootstrap-4-template-news-portal-magazine/">Fitness</a>
+                                        <a class="p-1 badge badge-primary rounded-0" href="">Fitness</a>
 
                                         <!--title and description-->
                                        
@@ -263,7 +264,7 @@
                                 <div class="position-relative">
                                     <!--thumbnail img-->
                                     <div class="ratio_right-cover-2 image-wrapper">
-                                        <a href="https://bootstrap.news/bootstrap-4-template-news-portal-magazine/">
+                                        <a href="">
                                             <img class="img-fluid"
                                                  src="https://bootstrap.news/source/img8.jpg"
                                                  alt="Image description">
@@ -273,10 +274,10 @@
                                     <!--title-->
                                     <div class="position-absolute p-2 p-lg-3 b-0 w-100 bg-shadow">
                                         <!-- category -->
-                                        <a class="p-1 badge badge-primary rounded-0" href="https://bootstrap.news/bootstrap-4-template-news-portal-magazine/">Adventure</a>
+                                        <a class="p-1 badge badge-primary rounded-0" href="">Adventure</a>
 
                                         <!--title and description-->
-                                        <a href="https://bootstrap.news/bootstrap-4-template-news-portal-magazine/">
+                                        <a href="https:">
                                             <h2 class="h5 text-white my-1"></h2>
                                         </a>
                                     </div>

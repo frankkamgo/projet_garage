@@ -46,12 +46,12 @@ include ('lib/php/verif_connexion.php');
     		   </a>
     		</div>
     	   <div class="col-xs-12 col-sm-6 col-md-3">
-               <a href="./index.php?page=Diagnostique.php" class="text-body">
+               <a href="./index.php?page=Inscription.php" class="text-body">
     		    <div class="card bg-light mb-3">
     		        <div class="card-body">
     		           <i class="fa fa-tachometer fa-4x "></i></br>
-                        <small class="text-secondary">Diagnostique ()</small>
-                    	<h5>Diagnostique Effectué</h5>
+                        <small class="text-secondary">Enregistré()</small>
+                    	<h5>Ajouter un Client</h5>
     		        </div>
     		    </div>
     		   </a>
@@ -71,12 +71,12 @@ include ('lib/php/verif_connexion.php');
     		   </a>
     		</div>
     	   <div class="col-xs-12 col-sm-6 col-md-3">
-               <a href="#" class="text-body">
+               <a href="./index.php?page=catalogue.php" class="text-body">
     		    <div class="card bg-light mb-3">
     		        <div class="card-body">
     		           <i class="fa fa-tachometer fa-4x "></i></br>
-                        <small class="text-secondary">Mileage (upto)</small>
-                    	<h5>Denting/Penting</h5>
+                        <small class="text-secondary">Gestion (Pieces)</small>
+                    	<h5>Gestion pieces Dynamique</h5>
     		        </div>
     		    </div>
     		   </a>

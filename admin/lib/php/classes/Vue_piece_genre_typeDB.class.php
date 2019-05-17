@@ -29,12 +29,12 @@ class Vue_piece_genre_typeDB {
         }
     }
 
-    public function getPiecesByType($id_type) {
+    public function getPiecesByType($id_p) {
         try {
             $this->_db->beginTransaction();
-            $query = "select * from vue_piece_piece_type where id_type=:id_type";
+            $query = "select * from vue_piece_genre_type where id_p=:id_p";
             $resultset = $this->_db->prepare($query);
-            $resultset->bindValue(':id_type', $id_type);
+            $resultset->bindValue(':id_p', $id_p);
             $resultset->execute();
             $this->_db->commit();
             while ($data = $resultset->fetch()) {

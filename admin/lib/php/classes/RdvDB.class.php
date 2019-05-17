@@ -12,7 +12,22 @@ class RdvDB extends Rdv {
     public function __construct($db) {//contenu de $cnx de l'index
         $this->_db = $db;
     }
-
+ public function addRdv($data){
+        //$_db->beginTransaction();
+        try{
+            $query = "insert into rdv(date_rdv,description,mail,tel) values(:date_rdv,:description,:mail,:tel)";
+            $resultset=$this->_db->prepare($query);
+            $resultset->bindValue(':date_rdv', $data['date_rdv']);
+            $resultset->bindValue(':description', $data['description']);
+             $resultset->bindValue(':mail', $data['mail']);
+              $resultset->bindValue(':tel', $data['tel']);
+            $resultset->execute();
+            return 1;
+        } catch (PDOException $e) {
+            print "Echec du rendez_vous ".$e->getMessage();
+            return 2;
+        }
+    }
     public function getRdv() {
         try {
             $query = "select * from rdv ";
@@ -33,4 +48,6 @@ class RdvDB extends Rdv {
             return null;
         }
     }
+    
+    
 }

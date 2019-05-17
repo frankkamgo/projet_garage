@@ -5,7 +5,7 @@
 <?php
 //récupération des elements pour la liste déroulante
 $typ = new ClientDB($cnx);
-$types = $typ->getClient();
+$types = $typ->getClient1();
 $nbr_type = count($types);
 ?>
 
@@ -19,6 +19,14 @@ $nbr_type = count($types);
                   <th scope="col">Nom</th>
                   <th scope="col">prenom</th>
                   <th scope="col">tel</th>
+                  <th scope="col">email</th>
+                   <th scope="col">localite</th>
+                 <th scope="col">adresse</th>
+                    <th scope="col">numéro rue</th>
+                     <th scope="col">code post</th>
+                        
+                          
+                            
                 </tr>
               </thead>
               <tbody >
@@ -30,6 +38,13 @@ $nbr_type = count($types);
                   <td><?php print $types[$i]->nom_c; ?></td>
                   <td><?php  print $types[$i]->prenom_c; ?></td>
                    <td><?php  print $types[$i]->tel; ?></td>
+                   <td><?php  print $types[$i]->email; ?></td>
+                     <td><?php  print $types[$i]->localite; ?></td>
+                  <td><?php  print $types[$i]->adresse; ?></td>
+                   <td><?php  print $types[$i]->numero; ?></td>
+                 <td><?php  print $types[$i]->cp; ?></td>
+                   
+                   
                 </tr>
                     <?php } ?>
                 </tbody>

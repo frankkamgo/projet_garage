@@ -3,7 +3,7 @@
 
 
 /**
- * Description of Client
+ * Description of Piece
  *
  * @author Kamgo
  */
